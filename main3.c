@@ -3,7 +3,7 @@
 #include<string.h>
 
 #define nb 3	// number of blocks in one direction
-#define nb2 12	// number of small blocks in one direction
+#define nb2 9	// number of small blocks in one direction
 #define MC 4000
 
 double fnorm[nb2][nb2];
