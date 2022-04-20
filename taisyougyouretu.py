@@ -10,7 +10,7 @@ def get_symmetric(a, use_tril=True):
 row=9 #対称行列の行数
 low=2 #対称行列の要素の最小値
 high=10000 #対称行列の要素の最大値
-filename='f.csv' #出力先のファイル名
+filename='../data/f.csv' #出力先のファイル名
 a=np.random.randint(low,high,(row,row))
 
 for i in range(row):

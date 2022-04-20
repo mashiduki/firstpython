@@ -13,7 +13,7 @@ import sys
 #パラメータの設定/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-csvdata = pd.read_csv("f.csv", header = None) #f.csvに書かれた対称行列をcsvdataに読み込む
+csvdata = pd.read_csv("../data/f.csv", header = None) #f.csvに書かれた対称行列をcsvdataに読み込む
 
 size = len(csvdata)  #行列のサイズ
 lsize = 1 #小ブロックのサイズ
@@ -22,7 +22,7 @@ bsize = 3 #大ブロックのサイズ
 m = size//lsize #mは小ブロックの行数
 n = size//bsize #nは大ブロックの行数
 
-filename='f_swap.csv' #出力先のファイル名
+filename='../data/f_swap.csv' #出力先のファイル名
 #現在出力は小ブロック1の時のみに対応
 
 print(csvdata)
