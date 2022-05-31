@@ -7,7 +7,7 @@ def get_symmetric(a, use_tril=True):
         a = np.triu(a)
     return a + a.T - np.diag(a.diagonal())
 
-row=9 #対称行列の行数
+row=64 #対称行列の行数
 low=2 #対称行列の要素の最小値
 high=10000 #対称行列の要素の最大値
 filename='../data/f.csv' #出力先のファイル名
