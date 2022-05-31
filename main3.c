@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include<string.h>
 
-#define nb 3	// number of blocks in one direction
-#define nb2 9	// number of small blocks in one direction
+#define nb 2	// number of blocks in one direction
+#define nb2 4	// number of small blocks in one direction
 #define MC 4000
 
 double fnorm[nb2][nb2];
@@ -74,7 +74,7 @@ int main(void)
 	int level;
 	double max_off_norm = 0.0;
 	
-	char *fmm="f.csv";
+	char *fmm="../data/f.csv";
     FILE *csv;
     char bff[MC];
     char *c;
